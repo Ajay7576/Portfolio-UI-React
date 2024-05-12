@@ -17,6 +17,16 @@ const Backend = () => {
           <div className="skills__data">
             <i class="bx bx-badge-check"></i>
             <div>
+              <h3 className="skills__name">
+                Research and Development (Third Party Authentication)
+              </h3>
+              <span className="skills__level">Advanced</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i class="bx bx-badge-check"></i>
+            <div>
               <h3 className="skills__name">Asp.net Web Api </h3>
               <span className="skills__level">Advanced</span>
             </div>

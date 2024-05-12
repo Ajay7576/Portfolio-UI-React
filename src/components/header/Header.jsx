@@ -80,8 +80,7 @@ const Header = () => {
               <a
                 href="portfolio"
                 onClick={() => {
-                  setActiveNav("#portfolio");
-                  window.location.reload();
+                window.location.reload();
                 }}
                 className={
                   activeNav === "#portfolio"
