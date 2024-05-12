@@ -78,9 +78,9 @@ const Header = () => {
 
             <li className="nav__item">
               <a
-                href="portfolio"
+                href="#portfolio"
                 onClick={() => {
-                window.location.reload();
+                  setActiveNav("#portfolio");
                 }}
                 className={
                   activeNav === "#portfolio"

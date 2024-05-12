@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { projectsData } from "./Data";
-import { projectsNav } from "./Data";
+import { projectsData, projectsNav } from "./Data";
 import WorkItems from "./WorkItems";
 
 const Works = () => {
@@ -13,7 +12,7 @@ const Works = () => {
       setProjects(projectsData);
     } else {
       const newProjects = projectsData.filter((project) => {
-        return project.category.toLowerCase === item.name;
+        return project.category.toLowerCase() === item.name;
       });
 
       setProjects(newProjects);
@@ -21,30 +20,30 @@ const Works = () => {
   }, [item]);
 
   const handleClick = (e, index) => {
-    setItem({ name: e.target.textContent.toLowerCase });
+    setItem({ name: e.target.textContent.toLowerCase() });
     setActive(index);
   };
 
   return (
     <div>
       <div className="work__filters">
-        {projectsNav.map((item, index) => {
+        {projectsNav.map((navItem, index) => {
           return (
             <span
               onClick={(e) => {
                 handleClick(e, index);
               }}
-              className="work__item"
+              className={`work__item ${index === active ? "active" : ""}`}
               key={index}
             >
-              {item.name}
+              {navItem.name}
             </span>
           );
         })}
       </div>
       <div className="work__container container grid">
-        {projects.map((item, index) => {
-          return <WorkItems item={item} key={item.id} />;
+        {projects.map((project) => {
+          return <WorkItems item={project} key={project.id} />;
         })}
       </div>
     </div>
