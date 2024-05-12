@@ -55,10 +55,11 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle"> Visual Designer</h3>
+      <h3 className="home__subtitle"> Full Stack Developer</h3>
       <p className="home__description">
-        I'm creative designer based in India, and I'm very passionate and
-        dedicated to my work.
+        I am a software developer looking forward to collaborating with you. I
+        am passionate and dedicated to my work, and I look forward to hearing
+        from you about how we can work together.
       </p>
       <a href="#contact" className="button button--flex">
         Say hello
