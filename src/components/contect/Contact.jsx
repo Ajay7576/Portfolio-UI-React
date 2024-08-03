@@ -15,6 +15,8 @@ const Contact = () => {
       "7gu0nacftvXDaVDIO"
     );
 
+    
+
     e.target.reset();
   };
 
@@ -90,10 +92,11 @@ const Contact = () => {
             <div className="contact__form-div">
               <label className="contact__form-tag">Name</label>
               <input
-                type="name"
+                type="text"
                 name="name"
                 className="contact__form-input"
                 placeholder="Insert your name"
+                required
               />
             </div>
 
@@ -102,6 +105,7 @@ const Contact = () => {
               <input
                 type="email"
                 name="email"
+                required
                 className="contact__form-input"
                 placeholder="Insert your email"
               />

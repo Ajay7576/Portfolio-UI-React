@@ -1,0 +1,90 @@
+.cogniter__container {
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+    margin-bottom: 2px;
+}
+
+.section__manager-quote {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--highlight-color, #161513);
+    margin: 1.5rem 0;
+    text-align: center;
+    line-height: 1.4;
+    padding: 0 1rem;
+}
+
+.section__subtitle{
+    font-size: 1rem;
+
+}
+
+.section__title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cogniter__role {
+    font-size: 1rem;
+    color: gray;
+    margin-bottom: 0.5rem;
+}
+
+.cogniter__card {
+    background-color: var(--container-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1.5rem 2rem;
+    border-radius: 1.5rem;
+    margin-bottom: var(--mb-3);
+}
+
+.cogniter__img {
+    width: 60px;
+    border-radius: 3rem;
+    margin-bottom: var(--mb-1);
+}
+
+.section__highlighted-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2rem 0;
+    color: black;
+    text-align: center;
+}
+
+
+.cogniter__name {
+    font-weight: bold;
+    /* Set font weight to bold */
+    margin-bottom: 7px;
+    color: black;
+    /* Apply text color */
+}
+
+.cogniter__description {
+    font-size: var(--small-font-size);
+}
+
+/* swiper class */
+
+.swiper-pagination-bullet {
+    background-color: var(--text-color) !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--title-color) !important;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .cogniter__container {
+        width: 100%;
+        max-width: none;
+    }
+
+    .cogniter__card {
+        padding: 1.25rem 1.5rem;
+    }
+}
