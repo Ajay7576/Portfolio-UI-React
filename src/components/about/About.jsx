@@ -20,7 +20,7 @@ const About = () => {
             and ensuring a seamless user experience.
             <br />
             <br />
-            My first project was the Talygen module for Asset Management, which
+            My first project was the Talygen ( Asset Management ) Module, which
             was pivotal in shaping my career. Through this project, I developed
             and refined a range of essential skills, including:
             <ul>

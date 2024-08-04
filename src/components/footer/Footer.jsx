@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css";
+
 const Footer = () => {
   return (
     <footer className="footer">
@@ -11,13 +12,11 @@ const Footer = () => {
               About
             </a>
           </li>
-
           <li>
             <a href="#portfolio" className="footer__link">
               Projects
             </a>
           </li>
-
           <li>
             <a href="#testimonials" className="footer__link">
               Testimonials
@@ -30,6 +29,7 @@ const Footer = () => {
             href="https://www.facebook.com/profile.php?id=100014111167723"
             className="footer__social-link"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <i className="bx bxl-facebook"></i>
           </a>
@@ -37,6 +37,7 @@ const Footer = () => {
             href="https://www.instagram.com/ig_mandyal/"
             className="footer__social-link"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <i className="bx bxl-instagram"></i>
           </a>
@@ -44,12 +45,13 @@ const Footer = () => {
             href="https://www.youtube.com/channel/UCoR-Ti191mYK0dFGzMMf-wQ"
             className="footer__social-link"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <i className="bx bxl-youtube"></i>
           </a>
         </div>
 
-        <span className="footer__copy"> All rigths reserved</span>
+        <span className="footer__copy">All rights reserved</span>
       </div>
     </footer>
   );

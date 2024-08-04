@@ -19,11 +19,9 @@ function App() {
         <Home/>
         <About/> 
         <Cogniter/>
-
         <Skills/>
         <Services/> 
         <Qualification/>
-        <Cogniter/>
         <Work/>
         <Testimonials/>
         <Contact/>
