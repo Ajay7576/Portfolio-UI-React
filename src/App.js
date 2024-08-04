@@ -18,6 +18,8 @@ function App() {
       <main className='main'>
         <Home/>
         <About/> 
+        <Cogniter/>
+
         <Skills/>
         <Services/> 
         <Qualification/>

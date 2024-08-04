@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/ajay.jpg";
-import CV from "../../assets/AjayCv.pdf";
+import CV from "../../assets/dummyresume.pdf";
 import Info from "./Info";
 
 const About = () => {
@@ -10,19 +10,70 @@ const About = () => {
       <h2 className="section__title">About Me</h2>
       <span className="section__subtitle">My Introduction</span>
       <div className="about__container container grid">
-        <img src={AboutImg} alt="" className="about__img" />
-        <div className="about_data">
+        <img src={AboutImg} alt="Profile" className="about__img" />
+        <div className="about__data">
           <Info />
           <p className="about__description">
-            Frontend developer, I create web pages with UI / UX user interface,
-            I have years of experience and many clients are happy with the
-            projects carried out.
+            I’m a full stack developer with extensive experience in building
+            dynamic, responsive web applications. I specialize in both frontend
+            and backend development, delivering efficient, scalable solutions
+            and ensuring a seamless user experience.
+            <br />
+            <br />
+            My first project was the Talygen module for Asset Management, which
+            was pivotal in shaping my career. Through this project, I developed
+            and refined a range of essential skills, including:
+            <ul>
+              <li>
+                <b>Logical Thinking:</b> Developing a structured approach to
+                problem-solving.
+              </li>
+              <li>
+                <b>Patience:</b> Maintaining composure and persistence in the
+                face of challenges.
+              </li>
+              <li>
+                <b>Research and Development:</b> Conducting thorough
+                investigations to implement innovative solutions.
+              </li>
+              <li>
+                <b>Architecture:</b> Designing scalable and efficient system
+                architectures.
+              </li>
+              <li>
+                <b>API Integration:</b> Seamlessly connecting frontend and
+                backend systems through APIs.
+              </li>
+              <li>
+                <b>Frontend to Backend Integration:</b> Ensuring smooth
+                interaction between user interfaces and server-side logic.
+              </li>
+              <li>
+                <b>Custom Fields:</b> Implementing customizable data fields to
+                meet specific client requirements.
+              </li>
+              <li>
+                <b>Advanced Search Filters:</b> Creating robust search
+                functionalities for improved data retrieval.
+              </li>
+              <li>
+                <b>View Management:</b> Efficiently organizing and displaying
+                data to enhance user experience.
+              </li>
+            </ul>
+            These skills have been crucial in my development as a professional,
+            enabling me to deliver high-quality projects and exceed client
+            expectations.
           </p>
-          <a download="" href={CV} className="button button--flex" title="download cv"
->
+          <a
+            download="Ajay_CV"
+            href={CV}
+            className="button button--flex"
+            title="Download CV"
+          >
             Download CV
             <svg
-              class="button__icon"
+              className="button__icon"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
