@@ -21,11 +21,53 @@ const Cogniter = () => {
         which laid the groundwork for my professional development.
       </span>
 
-      <h5 className="section__manager-quote">
-        My Manager Said: 😄 "M toh tere ko aise he smjhta tha" 👍
-        <br />
-        My Reply: 😂 "M bhi man he man hasu! Ab main kya bolu?" 😆
-      </h5>
+      <p className="first_Project">
+        My first project was the Talygen (Asset Management) Module, which was
+        pivotal in shaping my career. Through this project, I developed and
+        refined a range of essential skills, including:
+        <ul>
+          <br />
+          <li className="list-item-spacing">
+            <b>Logical Thinking:</b> Developing a structured approach to
+            problem-solving.
+          </li>
+          <li className="list-item-spacing">
+            <b>Patience:</b> Maintaining composure and persistence in the face
+            of challenges.
+          </li>
+          <li className="list-item-spacing">
+            <b>Research and Development:</b> Conducting thorough investigations
+            to implement innovative solutions.
+          </li>
+          <li className="list-item-spacing">
+            <b>Architecture:</b> Designing scalable and efficient system
+            architectures.
+          </li>
+          <li className="list-item-spacing">
+            <b>API Integration:</b> Seamlessly connecting frontend and backend
+            systems through APIs.
+          </li>
+          <li className="list-item-spacing">
+            <b>Frontend to Backend Integration:</b> Ensuring smooth interaction
+            between user interfaces and server-side logic.
+          </li>
+          <li className="list-item-spacing">
+            <b>Custom Fields:</b> Implementing customizable data fields to meet
+            specific client requirements.
+          </li>
+          <li className="list-item-spacing">
+            <b>Advanced Search Filters:</b> Creating robust search
+            functionalities for improved data retrieval.
+          </li>
+          <li className="list-item-spacing">
+            <b>View Management:</b> Efficiently organizing and displaying data
+            to enhance user experience.
+          </li>
+        </ul>
+        These skills have been crucial in my development as a professional,
+        enabling me to deliver high-quality projects and exceed client
+        expectations.
+      </p>
 
       <h5 className="section__highlighted-title">
         This is what company employees and management say about me{" "}
