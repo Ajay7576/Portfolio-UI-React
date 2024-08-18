@@ -44,18 +44,14 @@ export const Data = [
     image: Image5,
     title: "Rakesh Kumar",
     role: "UI/UX Designer",
-    description:''
-
-   // description: "Your ability to balance creativity with practicality has greatly enhanced our user experience projects. Your insights and dedication to improving design processes are truly commendable.",
+    description: "Your ability to balance creativity with practicality has greatly enhanced our user experience projects. Your insights and dedication to improving design processes are truly commendable.",
   },
   {
     id: 6,
     image: Image6,
     title: "Parshant Nehra",
     role: "QA Engineer",
-    description:''
-
-   // description: "Your meticulous approach to quality assurance has greatly improved our product outcomes. Your attention to detail and problem-solving skills have consistently ensured high standards and successful project deliveries.",
+    description: "Your meticulous approach to quality assurance has greatly improved our product outcomes. Your attention to detail and problem-solving skills have consistently ensured high standards and successful project deliveries.",
   },
  
 

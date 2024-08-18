@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/ajay.jpg";
-import CV from "../../assets/dummyresume.pdf";
+import CV from "../../assets/18aug.pdf";
 import Info from "./Info";
 
 const About = () => {
@@ -20,7 +20,7 @@ const About = () => {
             and ensuring a seamless user experience.
           </p>
           <a
-            download="Ajay_CV"
+            download="resume"
             href={CV}
             className="button button--flex"
             title="Download CV"
