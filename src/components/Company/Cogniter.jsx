@@ -10,7 +10,7 @@ const Cogniter = () => {
   return (
     <section className="cogniter container section">
       <h2 className="section__title">Cogniter Technologies</h2>
-      <span className="section__subtitle">
+      <span className="first_Project">
         My journey in software development began with{" "}
         <b>Cogniter Technologies</b> , my first company. It was here that I
         gained invaluable experience and a strong foundation in innovative IT

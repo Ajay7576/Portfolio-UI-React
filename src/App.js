@@ -11,6 +11,7 @@ import Contact from './components/contect/Contact';
 import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
 import Cogniter from './components/Company/Cogniter';
+import Guidance from './components/about/Guidance';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <main className='main'>
         <Home/>
         <About/> 
+        <Guidance/>
         <Cogniter/>
         <Skills/>
         <Qualification/>
